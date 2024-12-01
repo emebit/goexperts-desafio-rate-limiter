@@ -6,7 +6,7 @@ import (
 	"net"
 	"net/http"
 
-	"Desafios/3/goexperts-desafio-rate-limiter/internal/limiter"
+	"github.com/emebit/goexperts-desafio-rate-limiter/internal/limiter"
 )
 
 /*
