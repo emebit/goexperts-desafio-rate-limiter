@@ -1,0 +1,17 @@
+GET http://localhost:8080 HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+### GET
+GET http://localhost:8080/
+Host: localhost:8080
+API_KEY: TOKENA
+
+######
+
+curl -H "API_KEY: 123456" http://localhost:8080
+
+######
+
+curl -H "API_KEY: 123457" http://localhost:8080
+

@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  redis:
+    image: redis:latest
+    command: redis-server
+    ports:
+      - "6379:6379"
+
+  goexperts-rate-limiter:
+    build: .
+    container_name: goexperts-rate-limiter
+    ports:
+      - 8080:8080
+
