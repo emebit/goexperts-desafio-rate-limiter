@@ -40,8 +40,8 @@
 package main
 
 import (
-	"Desafios/3/goexperts-desafio-rate-limiter/internal/limiter"
-	"Desafios/3/goexperts-desafio-rate-limiter/internal/middleware"
+	"github.com/emebit/goexperts-desafio-rate-limiter/internal/limiter"
+	"github.com/emebit/goexperts-desafio-rate-limiter/internal/middleware"
 	"fmt"
 	"net/http"
 
