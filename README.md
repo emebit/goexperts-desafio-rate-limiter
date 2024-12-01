@@ -35,8 +35,8 @@ token no header.
 ```bash
    for i in {1..10}; do curl -i -H "API_KEY: teste_123" http://localhost:8080/; done  
 ```
-   Para testar com o Apache Bench:
-   Instalar o Apache Bench se necessário, e executar o codigo:
+3. ### Testes com o Apache Bench:
+   Instalar o Apache Bench, se necessário, e executar o codigo:
 ```bash
    ab -n 10 -c 1 http://localhost:8080/
 ```
